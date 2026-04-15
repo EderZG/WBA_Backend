@@ -1,0 +1,51 @@
+# Local settings
+EMPLEADO/settings/local.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Database
+db.sqlite3
+*.sqlite3
+
+#  Static / media
+staticfiles/
+media/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage / testing
+.coverage*
+htmlcov/
+.pytest_cache/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Secret keys / configs
+*.pem
+*.key
+
+# Migrations cache
+**/migrations/*.pyc
